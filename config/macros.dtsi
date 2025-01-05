@@ -1,3 +1,9 @@
+macro_add_to_inbox: macro_add_to_inbox{
+compatible = "zmk,behavior-macro";
+label = "macro_add_to_inbox";
+#binding-cells = <0>;
+bindings = <&kp LC(LA(LG(SPACE)))>;
+};
 macro_kinesis_gui: macro_kinesis_gui{
 compatible = "zmk,behavior-macro";
 label = "macro_kinesis_gui";
