@@ -214,4 +214,3 @@ wmp_right_brace_right_bracket: wmp_right_brace_right_bracket {
     mods = <(MOD_LSFT|MOD_RSFT)>;
     keep-mods = <(MOD_LSFT|MOD_RSFT)>;
 };
-};
