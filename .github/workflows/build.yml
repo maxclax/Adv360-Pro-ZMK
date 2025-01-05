@@ -11,6 +11,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Add dvp + wmp custom behaviors
+        run: |
+          cat $GITHUB_WORKSPACE/config/extra_morphs.dtsi | tee -a $GITHUB_WORKSPACE/config/macros.dtsi
+          cat $GITHUB_WORKSPACE/config/macros.dtsi
       - name: Get version data
         id: get_info
         run: |
