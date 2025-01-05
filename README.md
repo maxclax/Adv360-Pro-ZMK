@@ -1,6 +1,6 @@
 # Kinesis Advantage 360 Pro ZMK Config
 
-### Available Keyboard Layouts
+## Available Keyboard Layouts
 
 The following keyboard layouts are included:
 
@@ -8,13 +8,12 @@ The following keyboard layouts are included:
 - Colemak
 - Colemak-DH
 - Dvorak
-- Programmer Dvorak
+- Programmer Dvorak (dvp)
 - Workman
 - Workman-P
 
-You can switch between layouts using the function layer (Fn + N). Each layout is
-assigned to a different layer number and uses distinct LED colors for easy
-identification.
+You can switch between layouts using the MOD layer. Each layout is assigned to a
+different layer number and uses distinct LED colors for easy identification.
 
 ## Modifying the keymap
 
@@ -36,6 +35,9 @@ Kinesis GUI.
 Certain ZMK features (e.g. combos) require knowing the exact key positions in
 the matrix. They can be found in both image and text format
 [here](assets/key-positions.md)
+
+!!! If behavior is not as expected, be sure there is no conflict with Karabiner
+Elements on your machine.
 
 ## Building the Firmware with GitHub Actions
 
