@@ -122,9 +122,9 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans              &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans              &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans              &trans  &kp LCTRL      &kp LALT                        &kp RGUI  &kp RCTRL     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans              &trans  &kp LCTRL      &kp LALT                        &kp RWIN  &kp RCTRL     &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                                     &kp HOME                     &kp PAGE_UP                        &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &kp BSPC    &kp DEL  &mt LGUI END                  &mt RALT PG_DN  &kp ENTER  &kp SPACE          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &kp BSPC    &kp DEL  &mt LWIN END                  &mt RALT PG_DN  &kp ENTER  &kp SPACE          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -134,7 +134,7 @@
  &trans  &trans  &trans  &trans  &trans  &trans              &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans              &trans  &kp LCTRL      &kp LALT                        &kp RALT  &kp RCTRL     &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                                     &kp HOME                       &kp PG_UP                        &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &kp BSPC    &kp DEL  &mt LGUI END                  &mt RGUI PG_DN  &kp ENTER  &kp SPACE          &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &kp BSPC    &kp DEL  &mt LWIN END                  &mt RWIN PG_DN  &kp ENTER  &kp SPACE          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
