@@ -11,6 +11,7 @@
     "workman",
     "workman-p",
     "T: Emacs+Vim",
+    "T: Emacs+Vim 2",
     "T: Win",
     "T: PC",
     "T: Kinesis (MAC)",
@@ -61,6 +62,12 @@
        "&trans",               "&kp A",      "&kp S",         "&kp H",          "&kp T",           "&kp G",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",         "&kp Y",             "&kp N",            "&kp E",                        "&kp O",                          "&kp L", "&trans",
        "&trans",               "&kp Z",      "&kp X",         "&kp M",          "&kp C",           "&kp V",                               "&trans",                     "&trans",                             "&kp K",             "&kp L",        "&kp COMMA",                   "&kp PERIOD",                      "&kp SLASH", "&trans",
        "&trans",    "&wmp_tilde_grave",     "&trans",        "&trans",         "&trans",                              "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",                             "&trans",           "&trans", "&wmp_left_brace_left_bracket", "&wmp_right_brace_right_bracket", "&trans"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                  "&trans",                                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                  "&trans",                                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                  "&trans",   "&kp LALT",      "&kp LCMD",                            "&kp RGUI",  "&kp RALT",    "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                                               "&kp HOME",                           "&kp PG_UP",                           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans",                     "&kp BACKSPACE", "&kp DELETE", "&mt LCTRL END",                     "&mt RCTRL PG_DN", "&kp ENTER", "&kp SPACE",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                  "&trans",                                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",                  "&trans",                                                                                       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
