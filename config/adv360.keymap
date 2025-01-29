@@ -40,11 +40,11 @@
 
         default_layer {
             bindings = <
- &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                          &tog 11                                                                                     &mo 13  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
+ &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                          &tog 12                                                                                     &mo 14  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T              &macro_full_display                                                                      &macro_toogle_monitor   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G            &macro_prev_workspace  &kp LGUI       &kp LALT                       &kp RCTRL   &kp RWIN      &macro_clipboards   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                                  &kp HOME                       &kp PG_UP                                     &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-    &mo 12  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                                 &kp BSPC   &kp DEL  &mt LCTRL END                  &mt RALT PG_DN  &kp ENTER              &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT     &mo 12
+    &mo 13  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                                 &kp BSPC   &kp DEL  &mt LCTRL END                  &mt RALT PG_DN  &kp ENTER              &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT     &mo 13
             >;
         };
 
@@ -110,6 +110,16 @@
 
         layer_T__Emacs_Vim {
             bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                                          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                   &trans   &kp LCTRL      &kp LCMD                        &kp RGUI  &kp RCTRL     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                                           &kp HOME                       &kp PG_UP                        &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &kp BACKSPACE  &kp DELETE  &mt LALT END                  &mt RALT PG_DN  &kp ENTER  &kp SPACE          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_T__Emacs_Vim_2 {
+            bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                   &trans    &kp LALT       &kp LCMD                         &kp RGUI   &kp RALT     &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -160,7 +170,7 @@
 
         layer_fn {
             bindings = <
- &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                        &tog 11                                                                           &mo 13  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+ &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                        &tog 12                                                                           &mo 14  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans              &macro_screenshot                                                               &macro_kinesis_gui  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &macro_add_to_inbox  &kp LG(Z)  &kp LS(LG(Z))                  &kp RC(R)  &trans    &macro_translate  &trans  &trans  &trans   &trans   &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans                                            &kp LS(LG(V))                     &trans                              &trans  &trans  &trans   &trans   &trans   &trans
@@ -174,7 +184,7 @@
   &to 1         &to 2         &none         &none         &none         &none            &bootloader                                                                     &bootloader   &none       &none       &none   &none   &none   &tog 8
   &to 3         &to 4         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &tog 9
   &to 5         &to 6         &none         &none         &none         &none                                  &none                       &none                                       &none       &none       &none   &none   &none  &tog 10
-  &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none    &none
+  &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none  &tog 11
             >;
         };
 
