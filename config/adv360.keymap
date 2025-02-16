@@ -26,6 +26,7 @@
     compatible = "zmk,keymap";
 
             default_layer {
+            display-name = "Base";
             bindings = <
  &kp EQUAL     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                          &tog 12                                                                                        &mo 14  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0  &kp MINUS
    &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T              &macro_full_display                                                                         &macro_toogle_monitor   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
@@ -35,7 +36,8 @@
             >;
         };
 
-        layer_dvorak {
+        dvorak {
+            display-name = "Dvorak";
             bindings = <
  &kp RBKT          &trans     &trans      &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans     &trans     &trans   &kp LBKT
    &trans  &kp APOSTROPHE  &kp COMMA  &kp PERIOD   &kp P   &kp Y            &trans                                                  &trans   &kp F   &kp G   &kp C      &kp R      &kp L   &kp BSLH
@@ -45,7 +47,8 @@
             >;
         };
 
-        layer_dvp {
+        dvp {
+            display-name = "DVP";
             bindings = <
  &dvp_hash_grave  &dvp_ampersand_percent  &dvp_left_bracket_n7  &dvp_left_brace_n5  &dvp_right_brace_n3  &dvp_left_parenthesis_n1            &trans                                                  &trans  &dvp_equal_n9  &dvp_asterisk_n0  &dvp_right_parenthesis_n2  &dvp_plus_n4  &dvp_right_bracket_n6  &dvp_exclamation_n8
           &trans           &kp SEMICOLON             &kp COMMA          &kp PERIOD                &kp P                     &kp Y            &trans                                                  &trans          &kp F             &kp G                      &kp C         &kp R                  &kp L        &kp BACKSLASH
@@ -55,7 +58,8 @@
             >;
         };
 
-        layer_colemak {
+        colemak {
+            display-name = "Colemak";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans     &trans      &trans         &trans  &trans
  &trans   &kp Q   &kp W   &kp F   &kp P   &kp G            &trans                                                  &trans   &kp J   &kp L      &kp U       &kp Y  &kp SEMICOLON  &trans
@@ -65,7 +69,8 @@
             >;
         };
 
-        layer_colemak_dh {
+        colemak_dh {
+            display-name = "Colemak DH";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans     &trans      &trans         &trans  &trans
  &trans   &kp Q   &kp W   &kp F   &kp P   &kp B            &trans                                                  &trans   &kp J   &kp L      &kp U       &kp Y  &kp SEMICOLON  &trans
@@ -75,7 +80,8 @@
             >;
         };
 
-        layer_workman {
+        workman {
+            display-name = "Workman";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans     &trans      &trans         &trans  &trans
  &trans   &kp Q   &kp D   &kp R   &kp W   &kp B            &trans                                                  &trans   &kp J   &kp F      &kp U       &kp P  &kp SEMICOLON  &trans
@@ -85,7 +91,8 @@
             >;
         };
 
-        layer_workman_p {
+        workman_p {
+            display-name = "Workman P";
             bindings = <
  &trans  &wmp_exclamation_n1  &wmp_at_n2  &wmp_pound_n3  &wmp_dollar_n4  &wmp_percent_n5            &trans                                                  &trans  &wmp_caret_n6  &wmp_ampersand_n7  &wmp_asterisk_n8      &wmp_left_parenthesis_n9       &wmp_right_parenthesis_n0  &trans
  &trans                &kp Q       &kp D          &kp R           &kp W            &kp B            &trans                                                  &trans          &kp J              &kp F             &kp U                         &kp P                   &kp SEMICOLON  &trans
@@ -95,7 +102,8 @@
             >;
         };
 
-        layer_T__Emacs_Vim {
+        T__Emacs_Vim {
+            display-name = "T: Emacs Vim";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                                             &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -105,7 +113,8 @@
             >;
         };
 
-        layer_T__Emacs_Vim_2 {
+        T__Emacs_Vim_2 {
+            display-name = "T: Emacs Vim 2";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                   &trans                                                                            &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -115,7 +124,8 @@
             >;
         };
 
-        layer_T__Win {
+        T__Win {
+            display-name = "T: Win";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans              &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans              &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -125,7 +135,8 @@
             >;
         };
 
-        layer_T__PC {
+        T__PC {
+            display-name = "T: PC";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans              &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans              &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -135,7 +146,8 @@
             >;
         };
 
-        layer_T__Kinesis__MAC_ {
+        T__Kinesis__MAC_ {
+            display-name = "T: Kinesis MAC";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans              &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans              &trans                                                                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -145,7 +157,8 @@
             >;
         };
 
-        layer_keypad {
+        keypad {
+            display-name = "Kp";
             bindings = <
  &kp EQUAL     &kp N1  &kp N2    &kp N3     &kp N4  &kp N5            &trans                                                     &trans  &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
    &kp TAB     &trans  &trans    &trans     &trans  &trans             &none                                                      &none  &trans   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
@@ -155,7 +168,8 @@
             >;
         };
 
-        layer_fn {
+        fn {
+            display-name = "Fn";
             bindings = <
  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                        &tog 12                                                                           &mo 14  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
  &trans  &trans  &trans  &trans  &trans  &trans              &macro_screenshot                                                               &macro_kinesis_gui  &trans  &trans  &trans   &trans   &trans   &trans
@@ -165,7 +179,8 @@
             >;
         };
 
-        layer_mod {
+        mod {
+            display-name = "Mod";
             bindings = <
   &to 0  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                  &none                                                                          &trans   &none       &none       &none   &none   &none   &tog 7
   &to 1         &to 2         &none         &none         &none         &none            &bootloader                                                                     &bootloader   &none       &none       &none   &none   &none   &tog 8
