@@ -1,4 +1,4 @@
-  macro_quotes: macro_quotes {
+macro_quotes: macro_quotes {
     compatible = "zmk,behavior-macro";
     label = "macro_quotes";
     #binding-cells = <0>;
@@ -222,3 +222,57 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+macro_prev_workspace: macro_prev_workspace{
+  compatible = "zmk,behavior-macro";
+  label = "macro_prev_workspace";
+  #binding-cells = <0>;
+  bindings = <&kp LA(TAB)>;
+};
+macro_force_quit: macro_force_quit{
+  compatible = "zmk,behavior-macro";
+  label = "macro_force_quit";
+  #binding-cells = <0>;
+  bindings = <&kp LA(LG(ESC))>;
+};
+macro_screenshot: macro_screenshot{
+  compatible = "zmk,behavior-macro";
+  label = "macro_screenshot";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LG(N4))>;
+};
+macro_add_to_inbox: macro_add_to_inbox{
+  compatible = "zmk,behavior-macro";
+  label = "macro_add_to_inbox";
+  #binding-cells = <0>;
+  bindings = <&kp LC(LA(LG(SPACE)))>;
+};
+macro_kinesis_gui: macro_kinesis_gui{
+  compatible = "zmk,behavior-macro";
+  label = "macro_kinesis_gui";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LA(LC(LG(N3))))>;
+};
+macro_clipboards: macro_clipboards{
+  compatible = "zmk,behavior-macro";
+  label = "macro_clipboards";
+  #binding-cells = <0>;
+  bindings = <&kp LA(LG(C))>;
+};
+macro_translate: macro_translate{
+  compatible = "zmk,behavior-macro";
+  label = "macro_translate";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(T))))>;
+};
+macro_full_display: macro_full_display{
+  compatible = "zmk,behavior-macro";
+  label = "macro_full_display";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LA(F))>;
+};
+macro_toogle_monitor: macro_toogle_monitor{
+  compatible = "zmk,behavior-macro";
+  label = "macro_toogle_monitor";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LA(TAB))>;
+};
