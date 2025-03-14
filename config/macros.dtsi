@@ -264,6 +264,12 @@ macro_translate: macro_translate{
   #binding-cells = <0>;
   bindings = <&kp LS(LC(LA(LG(T))))>;
 };
+macro_pomodoro: macro_pomodoro{
+  compatible = "zmk,behavior-macro";
+  label = "macro_pomodoro";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(P))))>;
+};
 macro_full_display: macro_full_display{
   compatible = "zmk,behavior-macro";
   label = "macro_full_display";
