@@ -270,6 +270,12 @@ macro_pomodoro: macro_pomodoro{
   #binding-cells = <0>;
   bindings = <&kp LS(LC(LA(LG(P))))>;
 };
+macro_focus: macro_focus{
+  compatible = "zmk,behavior-macro";
+  label = "macro_focus";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(F))))>;
+};
 macro_full_display: macro_full_display{
   compatible = "zmk,behavior-macro";
   label = "macro_full_display";
