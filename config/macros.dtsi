@@ -280,7 +280,7 @@ macro_full_display: macro_full_display{
   compatible = "zmk,behavior-macro";
   label = "macro_full_display";
   #binding-cells = <0>;
-  bindings = <&kp LS(LA(F))>;
+  bindings = <&kp LA(F)>;
 };
 macro_toogle_monitor: macro_toogle_monitor{
   compatible = "zmk,behavior-macro";
