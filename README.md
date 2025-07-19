@@ -8,9 +8,8 @@ The following keyboard layouts are included:
 2. [Colemak](https://colemak.com)
 3. [Colemak-DH](https://colemakmods.github.io/mod-dh/)
 4. Dvorak
-5. [Programmer Dvorak (dvp)](https://www.kaufmann.no/roland/dvorak/)
-6. [Workman](https://workmanlayout.org)
-7. [Workman-P](https://workmanlayout.org)
+5. [Workman](https://workmanlayout.org)
+6. [Workman-P](https://workmanlayout.org)
 
 You can switch between layouts using the MOD layer. Each layout is assigned to a
 different layer number and uses distinct LED colors for easy identification.
@@ -50,7 +49,5 @@ Colemak ![Colemak](assets/colemak.png)
 Colemak-DH ![Colemak-DH](./assets/colemak-dh.png)
 
 Dvorak ![Dvorak](./assets/dvorak.png)
-
-Programmer Dvorak (dvp) ![dvp](./assets/dvp.png)
 
 Workman + Workman-P (N with changes) ![Workman](./assets/workman.png)
