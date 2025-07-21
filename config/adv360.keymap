@@ -39,11 +39,11 @@
         dvorak {
             display-name = "Dvorak";
             bindings = <
- &kp RBKT          &trans     &trans      &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans     &trans     &trans   &kp LBKT
-   &trans  &kp APOSTROPHE  &kp COMMA  &kp PERIOD   &kp P   &kp Y            &trans                                                  &trans   &kp F   &kp G   &kp C      &kp R      &kp L   &kp BSLH
-   &trans           &kp A      &kp O       &kp E   &kp U   &kp I            &trans  &trans  &trans                  &trans  &trans  &trans   &kp D   &kp H   &kp T      &kp N      &kp S  &kp MINUS
+   &trans          &trans     &trans      &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans     &trans     &trans   &trans
+   &trans  &kp APOSTROPHE  &kp COMMA  &kp PERIOD   &kp P   &kp Y            &trans                                                  &trans   &kp F   &kp G   &kp C      &kp R      &kp L   &trans
+   &trans           &kp A      &kp O       &kp E   &kp U   &kp I            &trans  &trans  &trans                  &trans  &trans  &trans   &kp D   &kp H   &kp T      &kp N      &kp S  &kp SLASH
    &trans   &kp SEMICOLON      &kp Q       &kp J   &kp K   &kp X                            &trans                  &trans                   &kp B   &kp M   &kp W      &kp V      &kp Z     &trans
-   &trans          &trans     &trans      &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &kp SLASH  &kp EQUAL     &trans
+   &trans          &trans     &trans      &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans     &trans
             >;
         };
 
@@ -83,11 +83,11 @@
         workman_p {
             display-name = "Workman P";
             bindings = <
- &trans  &wmp_exclamation_n1  &wmp_at_n2  &wmp_pound_n3  &wmp_dollar_n4  &wmp_percent_n5            &trans                                                  &trans  &wmp_caret_n6  &wmp_ampersand_n7  &wmp_asterisk_n8      &wmp_left_parenthesis_n9       &wmp_right_parenthesis_n0  &trans
+ &trans                &trans      &trans         &trans          &trans           &trans           &trans                                                  &trans          &trans             &trans            &trans                        &trans                  &trans         &trans
  &trans                &kp Q       &kp D          &kp R           &kp W            &kp B            &trans                                                  &trans          &kp J              &kp F             &kp U                         &kp P                   &kp SEMICOLON  &trans
  &trans                &kp A       &kp S          &kp H           &kp T            &kp G            &trans  &trans  &trans                  &trans  &trans  &trans          &kp Y              &kp N             &kp E                         &kp O                           &kp L  &trans
  &trans                &kp Z       &kp X          &kp M           &kp C            &kp V                            &trans                  &trans                          &kp K              &kp L         &kp COMMA                    &kp PERIOD                       &kp SLASH  &trans
- &trans     &wmp_tilde_grave      &trans         &trans          &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                            &trans            &trans  &wmp_left_brace_left_bracket  &wmp_right_brace_right_bracket  &trans
+ &trans                &trans      &trans         &trans          &trans                             &trans  &trans  &trans                  &trans  &trans  &trans                            &trans            &trans                   &trans                           &trans     &trans
             >;
         };
 
