@@ -268,31 +268,61 @@ macro_translate: macro_all_and_1{
   compatible = "zmk,behavior-macro";
   label = "macro_all_and_1";
   #binding-cells = <0>;
-  bindings = <&kp LS(LC(LA(LG(1))))>;
+  bindings = <&kp LS(LC(LA(LG(N1))))>;
 };
 macro_translate: macro_all_and_2{
   compatible = "zmk,behavior-macro";
   label = "macro_all_and_2";
   #binding-cells = <0>;
-  bindings = <&kp LS(LC(LA(LG(2))))>;
+  bindings = <&kp LS(LC(LA(LG(N2))))>;
 };
 macro_translate: macro_all_and_3{
   compatible = "zmk,behavior-macro";
   label = "macro_all_and_3";
   #binding-cells = <0>;
-  bindings = <&kp LS(LC(LA(LG(3))))>;
+  bindings = <&kp LS(LC(LA(LG(N3))))>;
 };
 macro_translate: macro_all_and_4{
   compatible = "zmk,behavior-macro";
   label = "macro_all_and_4";
   #binding-cells = <0>;
-  bindings = <&kp LS(LC(LA(LG(4))))>;
+  bindings = <&kp LS(LC(LA(LG(N4))))>;
 };
 macro_translate: macro_all_and_5{
   compatible = "zmk,behavior-macro";
   label = "macro_all_and_5";
   #binding-cells = <0>;
-  bindings = <&kp LS(LC(LA(LG(5))))>;
+  bindings = <&kp LS(LC(LA(LG(N5))))>;
+};
+macro_translate: macro_all_and_6{
+  compatible = "zmk,behavior-macro";
+  label = "macro_all_and_6";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(N6))))>;
+};
+macro_translate: macro_all_and_7{
+  compatible = "zmk,behavior-macro";
+  label = "macro_all_and_7";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(N7))))>;
+};
+macro_translate: macro_all_and_8{
+  compatible = "zmk,behavior-macro";
+  label = "macro_all_and_8";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(N8))))>;
+};
+macro_translate: macro_all_and_9{
+  compatible = "zmk,behavior-macro";
+  label = "macro_all_and_9";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(N9))))>;
+};
+macro_translate: macro_all_and_0{
+  compatible = "zmk,behavior-macro";
+  label = "macro_all_and_0";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(N0))))>;
 };
 macro_pomodoro: macro_pomodoro{
   compatible = "zmk,behavior-macro";
