@@ -264,6 +264,36 @@ macro_translate: macro_translate{
   #binding-cells = <0>;
   bindings = <&kp LS(LC(LA(LG(T))))>;
 };
+macro_translate: macro_all_and_1{
+  compatible = "zmk,behavior-macro";
+  label = "macro_all_and_1";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(1))))>;
+};
+macro_translate: macro_all_and_2{
+  compatible = "zmk,behavior-macro";
+  label = "macro_all_and_2";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(2))))>;
+};
+macro_translate: macro_all_and_3{
+  compatible = "zmk,behavior-macro";
+  label = "macro_all_and_3";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(3))))>;
+};
+macro_translate: macro_all_and_4{
+  compatible = "zmk,behavior-macro";
+  label = "macro_all_and_4";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(4))))>;
+};
+macro_translate: macro_all_and_5{
+  compatible = "zmk,behavior-macro";
+  label = "macro_all_and_5";
+  #binding-cells = <0>;
+  bindings = <&kp LS(LC(LA(LG(5))))>;
+};
 macro_pomodoro: macro_pomodoro{
   compatible = "zmk,behavior-macro";
   label = "macro_pomodoro";
