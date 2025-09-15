@@ -246,12 +246,6 @@ macro_add_to_inbox: macro_add_to_inbox{
   #binding-cells = <0>;
   bindings = <&kp LC(LA(LG(SPACE)))>;
 };
-macro_kinesis_gui: macro_kinesis_gui{
-  compatible = "zmk,behavior-macro";
-  label = "macro_kinesis_gui";
-  #binding-cells = <0>;
-  bindings = <&kp LS(LA(LC(LG(N3))))>;
-};
 macro_clipboards: macro_clipboards{
   compatible = "zmk,behavior-macro";
   label = "macro_clipboards";
